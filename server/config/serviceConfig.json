@@ -1,0 +1,45 @@
+{
+    "server": {
+        "host"          : "0.0.0.0",
+        "port"          : 1114
+    },
+    
+    "mysql": {
+        "host"          : "192.168.178.10",
+        "port"          : 3306,
+        "user"          : "root",
+        "pw"            : "123456",
+        "database"      : "fs"
+    },
+    
+    "redis": {
+        "host"          : "192.168.178.10",
+        "port"          : 6379,
+        "pw"            : "123456",
+        "db"            : 0
+    },
+    
+    "rustFS": {
+        "endpointUrl"   : "http://192.168.178.10:9000",
+        "accessKey"     : "rustfsadmin",
+        "secretKey"     : "rustfsadmin",
+        "region"        : "us-east-1",
+        "signatureUrl"  : "http://xyhraics.top"
+    },
+
+    "cors": {
+        "allowOrigins"      : ["127.0.0.1"],
+        "allowCredentials"  : true,
+        "allowMethods"      : ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+        "allowHeaders"      : ["*"]
+    },
+
+    "NetworkDomain" : {
+        "update" : 30,
+        "allowIp" : [
+            "192.168.178.*"
+        ]
+    }
+}
+
+
